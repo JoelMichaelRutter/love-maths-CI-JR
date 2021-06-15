@@ -42,7 +42,7 @@ function checkAnswer() {
         alert('Hey! You got it right! :D');
         incrementScore();
     } else {
-        alert(`Awwww... You answered ${userAnswer}. The correct answer was ${calculateCorrectAnswer[0]}!`);
+        alert(`Awwww... You answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`);
         incrementWrongAnswer();
     }
     runGame(calculatedAnswer[1]);
